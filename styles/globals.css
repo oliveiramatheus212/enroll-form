@@ -7,46 +7,54 @@
 :root {
   /* BRAND COLORS */
 
-  --brand-light: #F67841;
-  --brand-mid: #F3541C;
-  --brand-dark: #E43A12;
+  --brand-light: #f67841;
+  --brand-mid: #f3541c;
+  --brand-dark: #e43a12;
 
   /* TEXT COLORS */
 
   --text-primary: #292524;
-  --text-secondary: #57534E;
-  --text-tertiary: #8F8881;
-  -text-highlight: #E43A12;
+  --text-secondary: #57534e;
+  --text-tertiary: #8f8881;
+  -text-highlight: #e43a12;
 
   /* SURFACE COLORS */
 
-  --surface-primary: #FFFFFF;
-  --surface-secondary: #FEE7D6;
-  --surface-disabled: #E7E5E4;
+  --surface-primary: #ffffff;
+  --surface-secondary: #fee7d6;
+  --surface-disabled: #e7e5e4;
 
   /* STROKE */
 
-  --stroke-default: #D6D3D1;
-  --stroke-highlight: #F3541C;
+  --stroke-default: #d6d3d1;
+  --stroke-highlight: #f3541c;
 
   /* SEMANTIC */
 
-  --semantic-error: #DC2626;
+  --semantic-error: #dc2626;
 
   /* SUPPORTING */
 
-  --orange: #F9A474;
-  --yellow: #FEDF6F;
-  --green: #C7D78D;
-  --blue: #B8CEDC;
-  --violet: #C3B2E7;
-  --pink: #F682A5;
+  --orange: #f9a474;
+  --yellow: #fedf6f;
+  --green: #c7d78d;
+  --blue: #b8cedc;
+  --violet: #c3b2e7;
+  --pink: #f682a5;
 
   /* TYPOGRAPHY */
 
   --font-family: "Poppins", sans-serif;
-  --heading-xl: 700 32px/120% var(--font-family);
-  --heading-lg: 700 24px/120% var(--font-family);
-  --heading-md: 700 20px/120% var(--font-family);
-  --heading-sm: 700 16px/120% var(--font-family);
+
+  --text: 400 1rem/150% var(--font-family);
+  --text-sm: 400 0.875rem/140% var(--font-family);
+
+  --heading-xl: 700 2rem/120% var(--font-family);
+  --heading-lg: 700 1.5rem/120% var(--font-family);
+  --heading-md: 700 1.25rem/120% var(--font-family);
+  --heading-sm: 700 1rem/120% var(--font-family);
+}
+
+body {
+  overflow: hidden;
 }
